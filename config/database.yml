@@ -20,7 +20,7 @@ development:
   database: rorla
   pool: 5
   username: postgres
-  password: root
+  password: admin
 
 test:
   adapter: postgresql
@@ -28,7 +28,7 @@ test:
   database: rorla_test
   pool: 5
   username: postgres
-  password: root
+  password: admin
 
 production:
   adapter: postgresql
